@@ -1,0 +1,26 @@
+{
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "This is a great stream",
+      "id": 1
+    },
+    {
+      "title": "Other stream",
+      "description": "This is a another stream",
+      "id": 2
+    },
+    {
+      "title": "I created This Streams",
+      "description": "This was made by me",
+      "userId": "101256540524576475694",
+      "id": 3
+    },
+    {
+      "title": "Prog navagation2",
+      "description": "shouldn't be on form page2",
+      "userId": "101256540524576475694",
+      "id": 4
+    }
+  ]
+}
