@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom'
-import history from '../../history'
-import { connect } from 'react-redux'
-import React from 'react'
-import Modal from '../Modal'
-import { fetchStream, deleteStream } from '../../actions/Index.js'
+import { Link } from 'react-router-dom';
+import history from '../../history';
+import { connect } from 'react-redux';
+import React from 'react';
+import Modal from '../Modal';
+import { fetchStream, deleteStream } from '../../actions/Index.js';
 
 class StreamDelete extends React.Component {
  componentDidMount() {

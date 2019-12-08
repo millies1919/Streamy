@@ -1,8 +1,8 @@
-import _ from 'lodash'
-import React from 'react'
-import { connect } from 'react-redux'
-import { fetchStream, editStream } from '../../actions/Index.js'
-import StreamForm from './StreamForm'
+import _ from 'lodash';
+import React from 'react';
+import { connect } from 'react-redux';
+import { fetchStream, editStream } from '../../actions/Index.js';
+import StreamForm from './StreamForm';
 
 class StreamEdit extends React.Component {
     
@@ -13,7 +13,8 @@ componentDidMount(){
 onSubmit = formValues => {
     this.props.editStream(this.props.match.params.id, formValues)
  };
-    render() {
+
+render() {
         if (!this.props.stream) {
             return <div>Loading...</div>
         }
